@@ -48,8 +48,6 @@
   justify-content: space-around;
   width: 181px;
   align-items: center;
-  /* flex-wrap: wrap; */
-  /* background: #4e4c48; */
 }
 .header-logo:hover .header-logo-item {
   fill: #998675;
@@ -57,6 +55,9 @@
 }
 .header-logo:hover .header-logo-name {
   color: #998675;
+}
+.header-logo:active .header-logo-name {
+  opacity: 0.3;
 }
 .header-logo-item {
   text-decoration: none;
@@ -98,8 +99,8 @@
   transform: scale(1.1);
   color: #c7b299;
 }
-.header-nav-items-elem:focus {
-  color: gold;
+.header-nav-items-elem:active {
+  opacity: 0.4;
   font-weight: 500;
 }
 .header-icon-cart {
@@ -363,7 +364,6 @@ input[type="search"]:focus {
   flex-direction: row;
   justify-content: space-around;
   width: 530px;
-  list-style-type: none;
   margin: 0 470px 8px 0;
   padding: 0;
 }
@@ -373,6 +373,8 @@ input[type="search"]:focus {
   font-size: 28px;
   font-weight: 100;
   text-decoration: none;
+  margin: 8px;
+  padding: 0;
 }
 .blok4-aside-list-item:hover {
   transform: scale(1.1);
@@ -391,12 +393,89 @@ input[type="search"]:focus {
   width: 100%;
   margin: 0;
 }
-.header-buttom1 {
-  display: flex;
-}
 .blok4-aside-content {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   width: 85%;
+}
+.blok5-news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1920px;
+  background: #ffffff;
+  padding: 81px 0 100px 0;
+}
+.blok5-title {
+  display: block;
+  color: #555555;
+  font-family: "Raleway - Semi Bold", "Arial", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 24px 0;
+}
+.blok5-paragraf {
+  color: #8c8c8c;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  width: 100%;
+  margin: 0 0 50px 0;
+}
+.blok5-wrap {
+  display: flex;
+  width: 605px;
+  justify-content: space-between;
+}
+.bottom {
+  display: flex;
+  min-width: 70px;
+  min-height: 35px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.bottom:hover {
+  background-color: #998675;
+  border-bottom: 1px solid #111111;
+}
+.bottom:active {
+  opacity: 0.3;
+}
+.bottom_text {
+  margin: 10px 0 8px 0;
+  min-height: 11px;
+  color: #8c8c8c;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+}
+.bottom:hover .bottom_text {
+  color: #ffffff;
+}
+body > div > section.blok5-news > div > a:nth-child(1) > span {
+  margin-left: 25px;
+  margin-right: 27px;
+}
+body > div > section.blok5-news > div > a:nth-child(2) > span {
+  margin-left: 18px;
+  margin-right: 19px;
+}
+body > div > section.blok5-news > div > a:nth-child(3) > span {
+  margin-left: 21px;
+  margin-right: 21px;
+}
+body > div > section.blok5-news > div > a:nth-child(4) > span {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+body > div > section.blok5-news > div > a:nth-child(5) > span {
+  margin-left: 24px;
+  margin-right: 23px;
 }
