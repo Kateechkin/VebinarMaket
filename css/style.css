@@ -609,3 +609,109 @@ body > div > section.blok5-news > div > a:nth-child(5) > span {
 .article-preview:hover .article-btn-search:hover {
   background-color: red;
 }
+.blok6-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1920px;
+  background: #ffffff;
+  position: relative;
+  background-color: #ccc;
+}
+.blok6-video-poster {
+  min-height: 705px;
+  width: 1920px;
+  z-index: 0;
+}
+.buttom-video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 552px;
+  min-height: 228px;
+  z-index: 1;
+  position: absolute;
+  top: 210px;
+}
+.button-video-start {
+  border-radius: 50%;
+  opacity: 0.5;
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+  margin: 0 0 44px 0;
+  position: relative;
+  z-index: 2;
+}
+.svg-play {
+  z-index: 3;
+  fill: #ffffff;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.video-title {
+  color: #ffffff;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  width: 100%;
+  margin: 0 0 29px 0;
+  text-align: center;
+}
+.video-paragraf {
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+.video-time {
+  width: 100%;
+  color: #c7b299;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  text-align: center;
+}
+.blok7-baner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1920px;
+  background-color: #fbfaf8;
+  padding: 79px 0 0 0;
+}
+.blok7-baner-img {
+  width: 423px;
+  height: 616px;
+}
+.blok7-baner-title {
+  color: #555555;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.blok7-baner-paragraf {
+  color: #8c8c8c;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+.blok7-baner-list {
+  list-style-type: none;
+}
+.blok7-baner-list-item {
+  color: #8c8c8c;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+}
